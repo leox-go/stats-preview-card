@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(233,47%,7%);
+    color: white;
+}
+.container {
+    display: flex;
+    width: 65%;
+    background-color:  hsl(244, 37%, 16%);
+    border-radius: 8px;
+}
+.text {
+    width: 50%;
+    padding-top: 60px;
+    padding-left: 30px;
+}
+.wow {
+    width: 50%;
+    background-color:  hsl(277, 85%, 31%);
+    border-radius: 10px;
+}
+img {
+    width: 100%;
+    height: 100%;
+    opacity: 53%;
+    border-radius: 10px;
+}
+span {
+     color: blueviolet;
+}
+.luk {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    padding: 20px 25px 20px;
+}
+.win {
+    padding-top: 60px ;
+    padding-right: 60px;
+}
